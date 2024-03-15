@@ -1,0 +1,14 @@
+1)  Write the input file with the common format in input_raw.txt
+    the format should NOT be the same as the example in figure8.in
+    the number of bodies and the time are automatically set, you can change the txt file manually if you want
+
+2)  run the program called Praw_to_converted, once you do that you get 2 files
+    the first one is called conversion_parameters and it's needed for the reverse conversion program
+    the second one is called input_converted.txt and it's the file you should use with the C code, just like figure8.in
+    you would write something like a.exe < input_converted.txt
+
+3)  run the C code but use a.exe < input_converted.txt > output_converted.txt
+    this way you write the results on the output text file which can then be read by the reverse conversion program
+
+4)  run the program called Pconverted_to_raw, if everything is correct you should get a txt file with as many as rows as number of bodies times number of cycles created by the C code
+    if you have 3 bodies the first 3 rows are from the first cycle, the second try from the second etcs
