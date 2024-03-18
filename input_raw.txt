@@ -1,5 +1,5 @@
 #use this symbol to write comments, no need to say what's the number of bodies
 #mass, x, y, z, vx, vy, vz in physical coordinates , delimited by " " (space)
 #you can use the coordinates relative to an object(like the first one), the new ones will be in the center of mass
-1e30 299195741400 0 0 0 1e4 0
-1e30 1495978707000 0 0 0 -1e4 0
+1e30 149597870700 0 0 0 12000 0
+1e30 -149597870700 0 0 0 -12000 0
