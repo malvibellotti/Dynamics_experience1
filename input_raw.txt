@@ -1,7 +1,14 @@
 #use this symbol to write comments, no need to say what's the number of bodies
 #mass, x, y, z, vx, vy, vz in physical coordinates , delimited by " " (space)
 #you can use the coordinates relative to an object(like the first one), the new ones will be in the center of mass
-4e31 1.496e11 0 0 0 0 0
-1e30 -1.496e11 0 0 0 -1e4 0
-1e30 0 0 2e11 0 0 1e3
-1e30 0 1.5e11 1.5e11 1e3 0 0
+#il sistema solare non funziona, non so perché
+2e30 0 0 0 0 0 0
+0.33e24 57.9e9 0 0 0 47.4e3 0
+4.87e24 108.2e9 0 0 0 35e3 0
+5.97e24 149.6e9 0 0 0 29.8e3 0
+0.642e24 228e9 0 0 0 24.1e3 0
+1898e24 778.5e9 0 0 0 13.1e3 0
+568e24 1432e9 0 0 0 9.7e3 0
+86.8e24 2868e9 0 0 0 6.8e3 0
+102e24 4515e9 0 0 0 5.4e3 0
+
